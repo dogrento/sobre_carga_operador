@@ -24,6 +24,8 @@ class MinhaString{
 
         // sobre carga de operador
         void operator=(char* s);
+        void operator=(MinhaString& s);
+        bool operator == (MinhaString& s);
 };
     
 #endif

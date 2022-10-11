@@ -28,9 +28,22 @@ int main(){
 
     MinhaString teste1("cu buceta teste");
     MinhaString teste2;
+    MinhaString teste3;
+
+    teste3 = teste1;
 
     teste2 = "aqui estou usando sobre carga de operador.";
 
     cout << teste1.Get_string() << endl;
     cout << teste2.Get_string() << endl;
+
+    if(teste1 == &teste3){
+        cout << "entrei no if" << endl;
+        cout << "teste1 é igual ao teste3." << endl;
+    }
+    else{
+        cout << "entrei no else." << endl;
+    }
+
+    return 0;
 }
