@@ -23,7 +23,7 @@ class MinhaString{
         const char* Get_string();
 
         // sobre carga de operador
-        void operator=(char* s);
+        void operator=(const char* s);
         void operator=(MinhaString& s);
         bool operator == (MinhaString& s);
 };

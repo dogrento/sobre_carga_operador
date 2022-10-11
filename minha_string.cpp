@@ -24,7 +24,7 @@ const char* MinhaString::Get_string(){
     return pString;
 }
 
-void MinhaString::operator=(char* s){
+void MinhaString::operator=(const char* s){
     if(s!=pString){
         delete[]pString;
         tamanho = strlen(s);

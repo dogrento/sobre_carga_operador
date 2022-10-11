@@ -37,7 +37,7 @@ int main(){
     cout << teste1.Get_string() << endl;
     cout << teste2.Get_string() << endl;
 
-    if(teste1 == &teste3){
+    if(teste1 == teste3){
         cout << "entrei no if" << endl;
         cout << "teste1 é igual ao teste3." << endl;
     }
